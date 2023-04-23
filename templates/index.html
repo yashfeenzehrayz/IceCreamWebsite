@@ -1,0 +1,100 @@
+{% extends 'base.html' %}
+{% block title %} Home || {% endblock title %} 
+{% block body %}
+<div class = "container-fluid px-0">
+    <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/static/1.jpg" class="d-block w-100" alt="..." height="500px">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Welcome to Ice Cream Shop</h5>
+                <p>We are so excited to have you here.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/static/2.jpg" class="d-block w-100" alt="..." height="500px">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Flavors of Ice Creams</h5>
+                <p>We provide a great variety of Ice creams.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/static/3.jpg" class="d-block w-100" alt="..." height="500px">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Thank You</h5>
+                <p>Thank you for choosing us. Have a great experience.</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+</div>
+
+<div class="container my-5">
+    <h1 class = "my-5 text-center"> Select from our range of Ice Creams </h1>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+          <img src="/static/1.jpg" class="d-block w-100" alt="..." height="200px">
+          <div class="card-body">
+            <p class="card-text">Chocolate ice cream is a flavour of ice cream which is the second most common flavour of ice cream, after vanilla.The cocoa powder gives the ice cream a brown colour.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+          <img src="/static/1.jpg" class="d-block w-100" alt="..." height="200px">
+          <div class="card-body">
+            <p class="card-text">Pistachio ice cream or pistachio nut ice cream is an ice cream flavor made with pistachio nuts or flavoring. It is often distinctively green in color.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+          <img src="/static/1.jpg" class="d-block w-100" alt="..." height="200px">
+          <div class="card-body">
+            <p class="card-text">Mango Ice Cream is rich, creamy, and bursting with fresh mango flavor. It is made with mangoes or flavoring. It is often distinctively yellow in color.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+          <img src="/static/1.jpg" class="d-block w-100" alt="..." height="200px">
+          <div class="card-body">
+            <p class="card-text">Vanilla ice cream is made by blending in vanilla essence in along with the eggs, cream, milk and sugar. Vanilla ice cream is used in the creation of other flavours.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+          <img src="/static/1.jpg" class="d-block w-100" alt="..." height="200px">
+          <div class="card-body">
+            <p class="card-text">It has a nutty buttery flavour. It is made of brown sugar, butter, vanilla essence, milk,etc,this ice-cream has crunchy praline which adds crunch and sweetness.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+          <img src="/static/1.jpg" class="d-block w-100" alt="..." height="200px">
+          <div class="card-body">
+            <p class="card-text">Strawberry ice cream is a flavor of ice cream made with strawberry or strawberry flavoring.Most strawberry ice cream is colored pink or light red.</p>
+          </div>
+        </div>
+      </div>
+      
+{% endblock body %}
